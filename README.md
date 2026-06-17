@@ -13,3 +13,243 @@ Where the sequence of $x_n$ is defined recursively as follows:
 * $x_n = x_{n-1} + F_n$ (also denoted as $F_{n.1}$)
 
 *(Note: $F$ is a custom structural symbol defined by the author, NOT the standard Fibonacci sequence).*
+
+---
+
+## Alpha-02 - [Mày tự đặt tên cho nó, hoặc để là Multiplicative Growth]
+
+**Classification:** Recursive multiplicative system.
+
+**Mathematical Definition:**
+
+$$ \sum_{k=1}^{x_n} C_{x_n}^{k} = F_{n+1} $$
+
+Where the sequence of $x_n$ is defined recursively as follows:
+* For $x_0 = F_0$ (where $x \ge 3$)
+* $x_1 = F_0 \times F_1$ (also denoted as $F_{1.1}$)
+* $x_2 = F_{1.1} \times F_2$ (also denoted as $F_{2.1}$)
+* $x_n = x_{n-1} \times F_n$ (also denoted as $F_{n.1}$)
+
+---
+
+## Alpha-03
+
+**Classification:** Recursive multiplicative system.
+
+**Mathematical Definition:**
+
+$$\prod_{k=2}^{x_n} C_{x_n}^{k} = F_{n+1}$$
+
+Where the sequence of $x_n$ is defined recursively as follows:
+* For $x_0 = F_0$ (where $x \ge 3$)
+* $x_1 = F_0 + F_1$ (also denoted as $F_{1.1}$)
+* $x_2 = F_{1.1} + F_2$ (also denoted as $F_{2.1}$)
+* $x_n = x_{n-1} + F_n$ (also denoted as $F_{n.1}$)
+
+---
+
+## Alpha-04
+
+**Classification:** Recursive multiplicative system.
+
+**Mathematical Definition:**
+
+$$\prod_{k=2}^{x_n} C_{x_n}^{k} = F_{n+1}$$
+
+Where the sequence of $x_n$ is defined recursively as follows:
+* For $x_0 = F_0$ (where $x \ge 3$)
+* $x_1 = F_0 \times F_1$ (also denoted as $F_{1.1}$)
+* $x_2 = F_{1.1} \times F_2$ (also denoted as $F_{2.1}$)
+* $x_n = x_{n-1} \times F_n$ (also denoted as $F_{n.1}$)
+
+---
+
+## Alpha-05
+
+**Classification:** Recursive multiplicative system.
+
+**Mathematical Definition:**
+
+$$\sum_{k=1}^{x_n} C_{x_n}^{k} = F_{n+1}$$
+
+Where the sequence of $x_n$ is defined recursively as follows:
+* For $x_0 = F_0$ (where $x \ge 3$)
+* $x_1 = F_0^{F_1}$ (also denoted as $F_{1.1}$)
+* $x_2 = F_{1.1}^{F_2}$ (also denoted as $F_{2.1}$)
+* $x_n = x_{n-1}^{F_n}$ (also denoted as $F_{n.1}$)
+
+---
+
+## Alpha-06
+
+**Classification:** Recursive multiplicative system.
+
+**Mathematical Definition:**
+
+$$\sum_{k=1}^{x_n} C_{x_n}^{k} = F_{n+1}$$
+
+Where the sequence of $x_n$ is defined recursively as follows:
+* For $x_0 = F_0$ (where $x \ge 3$)
+* $x_1 = F_1^{F_0}$ (also denoted as $F_{1.1}$)
+* $x_2 = F_2^{F_{1.1}}$ (also denoted as $F_{2.1}$)
+* $x_n = F_n^{x_{n-1}}$ (also denoted as $F_{n.1}$)
+
+---
+
+## Alpha-07
+
+**Classification:** Recursive multiplicative system.
+
+**Mathematical Definition:**
+
+$$\prod_{k=1}^{x_n} C_{x_n}^{k} = F_{n+1}$$
+
+Where the sequence of $x_n$ is defined recursively as follows:
+* For $x_0 = F_0$ (where $x \ge 3$)
+* $x_1 = F_0^{F_1}$ (also denoted as $F_{1.1}$)
+* $x_2 = F_{1.1}^{F_2}$ (also denoted as $F_{2.1}$)
+* $x_n = x_{n-1}^{F_n}$ (also denoted as $F_{n.1}$)
+
+---
+
+## Alpha-08
+
+**Classification:** Recursive multiplicative system.
+
+**Mathematical Definition:**
+
+$$\prod_{k=1}^{x_n} C_{x_n}^{k} = F_{n+1}$$
+
+Where the sequence of $x_n$ is defined recursively as follows:
+* For $x_0 = F_0$ (where $x \ge 3$)
+* $x_1 = F_1^{F_0}$ (also denoted as $F_{1.1}$)
+* $x_2 = F_2^{F_{1.1}}$ (also denoted as $F_{2.1}$)
+* $x_n = F_n^{x_{n-1}}$ (also denoted as $F_{n.1}$)
+
+---
+
+## Alpha-09
+
+**Classification:** Recursive multiplicative system.
+
+**Mathematical Definition:**
+
+$$\sum_{k=1}^{x_n} C_{x_n}^{k} = F_{n+1}$$
+
+Where the sequence of $x_n$ is defined recursively as follows:
+* For $x_0 = F_0$ (where $x \ge 2$)
+* $x_1 = (F_0 + F_1) + (F_1)$ (also denoted as $F_{1.1}$)
+* $x_2 = (F_0 + F_1 + F_{1.1} + F_2) + (F_1 + F_{1.1} + F_2) + (F_{1.1} + F_2) + (F_2)$ (also denoted as $F_{2.1}$)
+* $x_n = (F_0 + \dots + F_n) + \dots + (F_n)$ (also denoted as $F_{n.1}$)
+
+---
+
+## Alpha-10
+
+**Classification:** Recursive multiplicative system.
+
+**Mathematical Definition:**
+
+$$\sum_{k=1}^{x_n} C_{x_n}^{k} = F_{n+1}$$
+
+Where the sequence of $x_n$ is defined recursively as follows:
+* For $x_0 = F_0$ (where $x \ge 3$)
+* $x_1 = (F_0 \times F_1) \times (F_1)$ (also denoted as $F_{1.1}$)
+* $x_2 = (F_0 \times F_1 \times F_{1.1} \times F_2) \times (F_1 \times F_{1.1} \times F_2) \times (F_{1.1} \times F_2) \times (F_2)$ (also denoted as $F_{2.1}$)
+* $x_n = (F_0 \times \dots \times F_n) \times \dots \times (F_n)$ (also denoted as $F_{n.1}$)
+
+---
+
+## Alpha-11
+
+**Classification:** Recursive multiplicative system.
+
+**Mathematical Definition:**
+
+$$\prod_{k=1}^{x_n} C_{x_n}^{k} = F_{n+1}$$
+
+Where the sequence of $x_n$ is defined recursively as follows:
+* For $x_0 = F_0$ (where $x \ge 3$)
+* $x_1 = (F_0 + F_1) + (F_1)$ (also denoted as $F_{1.1}$)
+* $x_2 = (F_0 + F_1 + F_{1.1} + F_2) + (F_1 + F_{1.1} + F_2) + (F_{1.1} + F_2) + (F_2)$ (also denoted as $F_{2.1}$)
+* $x_n = (F_0 + \dots + F_n) + \dots + (F_n)$ (also denoted as $F_{n.1}$)
+
+---
+
+## Alpha-12
+
+**Classification:** Recursive multiplicative system.
+
+**Mathematical Definition:**
+
+$$\prod_{k=1}^{x_n} C_{x_n}^{k} = F_{n+1}$$
+
+Where the sequence of $x_n$ is defined recursively as follows:
+* For $x_0 = F_0$ (where $x \ge 3$)
+* $x_1 = (F_0 \times F_1) \times (F_1)$ (also denoted as $F_{1.1}$)
+* $x_2 = (F_0 \times F_1 \times F_{1.1} \times F_2) \times (F_1 \times F_{1.1} \times F_2) \times (F_{1.1} \times F_2) \times (F_2)$ (also denoted as $F_{2.1}$)
+* $x_n = (F_0 \times \dots \times F_n) \times \dots \times (F_n)$ (also denoted as $F_{n.1}$)
+
+---
+
+## Alpha-13
+
+**Classification:** Recursive multiplicative system.
+
+**Mathematical Definition:**
+
+$$\sum_{k=1}^{x_n} C_{x_n}^{k} = F_{n+1}$$
+
+Where the sequence of $x_n$ is defined recursively as follows:
+* For $x_0 = F_0$ (where $x \ge 2$)
+* $x_1 = (F_1 + F_0) + (F_0)$ (also denoted as $F_{1.1}$)
+* $x_2 = (F_2 + F_{1.1} + F_1 + F_0) + (F_{1.1} + F_1 + F_0) + (F_1 + F_0) + (F_0)$ (also denoted as $F_{2.1}$)
+* $x_n = (F_n + \dots + F_0) + \dots + (F_0)$ (also denoted as $F_{n.1}$)
+
+---
+
+## Alpha-14
+
+**Classification:** Recursive multiplicative system.
+
+**Mathematical Definition:**
+
+$$\sum_{k=1}^{x_n} C_{x_n}^{k} = F_{n+1}$$
+
+Where the sequence of $x_n$ is defined recursively as follows:
+* For $x_0 = F_0$ (where $x \ge 3$)
+* $x_1 = (F_1 \times F_0) \times (F_0)$ (also denoted as $F_{1.1}$)
+* $x_2 = (F_2 \times F_{1.1} \times F_1 \times F_0) \times (F_{1.1} \times F_1 \times F_0) \times (F_1 \times F_0) \times (F_0)$ (also denoted as $F_{2.1}$)
+* $x_n = (F_n \times \dots \times F_0) \times \dots \times (F_0)$ (also denoted as $F_{n.1}$)
+
+---
+
+## Alpha-15
+
+**Classification:** Recursive multiplicative system.
+
+**Mathematical Definition:**
+
+$$\prod_{k=1}^{x_n} C_{x_n}^{k} = F_{n+1}$$
+
+Where the sequence of $x_n$ is defined recursively as follows:
+* For $x_0 = F_0$ (where $x \ge 2$)
+* $x_1 = (F_1 + F_0) + (F_0)$ (also denoted as $F_{1.1}$)
+* $x_2 = (F_2 + F_{1.1} + F_1 + F_0) + (F_{1.1} + F_1 + F_0) + (F_1 + F_0) + (F_0)$ (also denoted as $F_{2.1}$)
+* $x_n = (F_n + \dots + F_0) + \dots + (F_0)$ (also denoted as $F_{n.1}$)
+
+---
+
+## Alpha-16
+
+**Classification:** Recursive multiplicative system.
+
+**Mathematical Definition:**
+
+$$\prod_{k=1}^{x_n} C_{x_n}^{k} = F_{n+1}$$
+
+Where the sequence of $x_n$ is defined recursively as follows:
+* For $x_0 = F_0$ (where $x \ge 3$)
+* $x_1 = (F_1 \times F_0) \times (F_0)$ (also denoted as $F_{1.1}$)
+* $x_2 = (F_2 \times F_{1.1} \times F_1 \times F_0) \times (F_{1.1} \times F_1 \times F_0) \times (F_1 \times F_0) \times (F_0)$ (also denoted as $F_{2.1}$)
+* $x_n = (F_n \times \dots \times F_0) \times \dots \times (F_0)$ (also denoted as $F_{n.1}$)
