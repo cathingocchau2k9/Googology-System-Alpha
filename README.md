@@ -253,3 +253,212 @@ Where the sequence of $x_n$ is defined recursively as follows:
 * $x_1 = (F_1 \times F_0) \times (F_0)$ (also denoted as $F_{1.1}$)
 * $x_2 = (F_2 \times F_{1.1} \times F_1 \times F_0) \times (F_{1.1} \times F_1 \times F_0) \times (F_1 \times F_0) \times (F_0)$ (also denoted as $F_{2.1}$)
 * $x_n = (F_n \times \dots \times F_0) \times \dots \times (F_0)$ (also denoted as $F_{n.1}$)
+
+---
+
+## Alpha-17
+
+**Classification:** Recursive multiplicative system.
+
+**Mathematical Definition:**
+
+$$\sum_{k=1}^{x_n} C_{x_n}^{k} = F_{n+1}$$
+
+Where the sequence of $x_n$ is defined recursively as follows:
+* For $x_0 = F_0$ (where $x \ge 3$)
+* $x_1 = (F_0^{F_1})^{F_1}$ (also denoted as $F_{1.1}$)
+* $x_2 = (F_0^{F_1^{F_{1.1}^{F_2}}})^{\dots^{F_2}}$ (also denoted as $F_{2.1}$)
+* $x_n = (F_0^{\dots^{F_n}})^{\dots^{F_n}}$ (also denoted as $F_{n.1}$)
+
+---
+
+## Alpha-18
+
+**Classification:** Recursive multiplicative system.
+
+**Mathematical Definition:**
+
+$$\sum_{k=1}^{x_n} C_{x_n}^{k} = F_{n+1}$$
+
+Where the sequence of $x_n$ is defined recursively as follows:
+* For $x_0 = F_0$ (where $x \ge 3$)
+* $x_1 = (F_1^{F_0})^{F_0}$ (also denoted as $F_{1.1}$)
+* $x_2 = (F_2^{F_{1.1}^{F_1^{F_0}}})^{\dots^{F_0}}$ (also denoted as $F_{2.1}$)
+* $x_n = (F_n^{\dots^{F_0}})^{\dots^{F_0}}$ (also denoted as $F_{n.1}$)
+
+---
+
+## Alpha-19
+
+**Classification:** Recursive multiplicative system.
+
+**Mathematical Definition:**
+
+$$\prod_{k=1}^{x_n} C_{x_n}^{k} = F_{n+1}$$
+
+Where the sequence of $x_n$ is defined recursively as follows:
+* For $x_0 = F_0$ (where $x \ge 3$)
+* $x_1 = (F_0^{F_1})^{F_1}$ (also denoted as $F_{1.1}$)
+* $x_2 = (F_0^{F_1^{F_{1.1}^{F_2}}})^{\dots^{F_2}}$ (also denoted as $F_{2.1}$)
+* $x_n = (F_0^{\dots^{F_n}})^{\dots^{F_n}}$ (also denoted as $F_{n.1}$)
+
+---
+
+## Alpha-20
+
+**Classification:** Recursive multiplicative system.
+
+**Mathematical Definition:**
+
+$$\prod_{k=1}^{x_n} C_{x_n}^{k} = F_{n+1}$$
+
+Where the sequence of $x_n$ is defined recursively as follows:
+* For $x_0 = F_0$ (where $x \ge 3$)
+* $x_1 = (F_1^{F_0})^{F_0}$ (also denoted as $F_{1.1}$)
+* $x_2 = (F_2^{F_{1.1}^{F_1^{F_0}}})^{\dots^{F_0}}$ (also denoted as $F_{2.1}$)
+* $x_n = (F_n^{\dots^{F_0}})^{\dots^{F_0}}$ (also denoted as $F_{n.1}$)
+
+---
+
+## Alpha-21
+
+**Classification:** Recursive multiplicative system.
+
+**Mathematical Definition:**
+
+$$\sum_{k=1}^{x_n} C_{x_n}^{k} = F_{n+1}$$
+
+Where the sequence of $x_n$ is defined recursively as follows:
+* For $x_0 = F_0$ (where $x \ge 2$)
+* $x_1 = (F_0 + F_1) + (F_1) + (F_0) + (F_1 + F_0)$ (also denoted as $F_{1.1}$)
+* $x_2 = (F_0 + \dots + F_2) + \dots + (F_2) + (F_0) + \dots + (F_2 + \dots + F_0)$ (also denoted as $F_{2.1}$)
+* $x_n = (F_0 + \dots + F_n) + \dots + (F_n) + \dots + (F_n + \dots + F_0)$ (also denoted as $F_{n.1}$)
+
+**Core Logic Note:** The accumulation pattern follows a strict bidirectional mirror reflection. For each step $x_n$, the structural sequence initiates a progressive expansion from $F_0 \to F_n$, anchors at the peak, and then executes a symmetric reversed regression from $F_n \to F_0$. It is *not* a continuous linear accumulation of nested indices.
+
+---
+
+## Alpha-22
+
+**Classification:** Recursive multiplicative system.
+
+**Mathematical Definition:**
+
+$$\sum_{k=1}^{x_n} C_{x_n}^{k} = F_{n+1}$$
+
+Where the sequence of $x_n$ is defined recursively as follows:
+* For $x_0 = F_0$ (where $x \ge 3$)
+* $x_1 = (F_0 \times F_1) \times (F_1) \times (F_0) \times (F_1 + F_0)$ (also denoted as $F_{1.1}$)
+* $x_2 = (F_0 \times \dots \times F_2) \times \dots \times (F_2) \times (F_0) \times (F_1 \times F_0) \times \dots \times (F_2 \times \dots \times F_0)$ (also denoted as $F_{2.1}$)
+* $x_n = (F_0 \times \dots \times F_n) \times \dots \times (F_n) \times \dots \times (F_n \times \dots \times F_0)$ (also denoted as $F_{n.1}$)
+
+**Core Logic Note:** The accumulation pattern follows a strict bidirectional mirror reflection. For each step $x_n$, the structural sequence initiates a progressive expansion from $F_0 \to F_n$, anchors at the peak, and then executes a symmetric reversed regression from $F_n \to F_0$. It is *not* a continuous linear accumulation of nested indices.
+
+---
+
+## Alpha-23
+
+**Classification:** Recursive multiplicative system.
+
+**Mathematical Definition:**
+
+$$\prod_{k=1}^{x_n} C_{x_n}^{k} = F_{n+1}$$
+
+Where the sequence of $x_n$ is defined recursively as follows:
+* For $x_0 = F_0$ (where $x \ge 2$)
+* $x_1 = (F_0 + F_1) + (F_1) + (F_0) + (F_1 + F_0)$ (also denoted as $F_{1.1}$)
+* $x_2 = (F_0 + \dots + F_2) + \dots + (F_2) + (F_0) + \dots + (F_2 + \dots + F_0)$ (also denoted as $F_{2.1}$)
+* $x_n = (F_0 + \dots + F_n) + \dots + (F_n) + \dots + (F_n + \dots + F_0)$ (also denoted as $F_{n.1}$)
+
+**Core Logic Note:** The accumulation pattern follows a strict bidirectional mirror reflection. For each step $x_n$, the structural sequence initiates a progressive expansion from $F_0 \to F_n$, anchors at the peak, and then executes a symmetric reversed regression from $F_n \to F_0$. It is *not* a continuous linear accumulation of nested indices.
+
+---
+
+## Alpha-24
+
+**Classification:** Recursive multiplicative system.
+
+**Mathematical Definition:**
+
+$$\prod_{k=1}^{x_n} C_{x_n}^{k} = F_{n+1}$$
+
+Where the sequence of $x_n$ is defined recursively as follows:
+* For $x_0 = F_0$ (where $x \ge 3$)
+* $x_1 = (F_0 \times F_1) \times (F_1) \times (F_0) \times (F_1 + F_0)$ (also denoted as $F_{1.1}$)
+* $x_2 = (F_0 \times \dots \times F_2) \times \dots \times (F_2) \times (F_0) \times (F_1 \times F_0) \dots \times (F_2 \times \dots \times F_0)$ (also denoted as $F_{2.1}$)
+* $x_n = (F_0 \times \dots \times F_n) \times \dots \times (F_n) \times \dots \times (F_n \times \dots \times F_0)$ (also denoted as $F_{n.1}$)
+
+**Core Logic Note:** The accumulation pattern follows a strict bidirectional mirror reflection. For each step $x_n$, the structural sequence initiates a progressive expansion from $F_0 \to F_n$, anchors at the peak, and then executes a symmetric reversed regression from $F_n \to F_0$. It is *not* a continuous linear accumulation of nested indices.
+
+---
+
+## Alpha-25
+
+**Classification:** Recursive multiplicative system.
+
+**Mathematical Definition:**
+
+$$\sum_{k=1}^{x_n} C_{x_n}^{k} = F_{n+1}$$
+
+Where the sequence of $x_n$ is defined recursively as follows:
+* For $x_0 = F_0$ (where $x \ge 3$)
+* $x_1 = (F_0^{F_1})^{F_1^{F_0^{F_1^{F_0}}}}$ (also denoted as $F_{1.1}$)
+* $x_2 = (F_0^{\dots^{F_2}})^{\dots^{F_2^{F_0^{\dots^{F_2^{\dots^{F_0}}}}}}}$ (also denoted as $F_{2.1}$)
+* $x_n = (F_0^{\dots^{F_n}})^{\dots^{F_n^{F_0^{\dots^{F_n^{\dots^{F_0}}}}}}}$ (also denoted as $F_{n.1}$)
+
+**Core Logic Note:** The accumulation pattern features a supreme bidirectional mirror reflection powered by exponential tower building. For each step $x_n$, the sequence constructs an exponential tower expanding from $F_0 \to F_n$, anchors at the peak, and then collapses into a symmetric reversed exponential regression back from $F_n \to F_0$. It is a pure bidirectional mirror tower, not a linear progression.
+
+---
+
+## Alpha-26
+
+**Classification:** Recursive multiplicative system.
+
+**Mathematical Definition:**
+
+$$\sum_{k=1}^{x_n} C_{x_n}^{k} = F_{n+1}$$
+
+Where the sequence of $x_n$ is defined recursively as follows:
+* For $x_0 = F_0$ (where $x \ge 3$)
+* $x_1 = (F_1^{F_0})^{F_0^{F_1^{F_0^{F_1}}}}$ (also denoted as $F_{1.1}$)
+* $x_2 = (F_2^{\dots^{F_0}})^{\dots^{F_0^{F_2^{\dots^{F_0^{\dots^{F_2}}}}}}}$ (also denoted as $F_{2.1}$)
+* $x_n = (F_n^{\dots^{F_0}})^{\dots^{F_0^{F_n^{\dots^{F_0^{\dots^{F_n}}}}}}}$ (also denoted as $F_{n.1}$)
+
+**Core Logic Note:** The accumulation pattern features a supreme bidirectional mirror reflection powered by exponential tower building. For each step $x_n$, the sequence constructs an exponential tower expanding from $F_n \to F_0$, anchors at the base, and then collapses into a symmetric reversed exponential regression back from $F_0 \to F_n$. It is a pure bidirectional mirror tower, not a linear progression.
+
+---
+
+## Alpha-27
+
+**Classification:** Recursive multiplicative system.
+
+**Mathematical Definition:**
+
+$$\prod_{k=1}^{x_n} C_{x_n}^{k} = F_{n+1}$$
+
+Where the sequence of $x_n$ is defined recursively as follows:
+* For $x_0 = F_0$ (where $x \ge 3$)
+* $x_1 = (F_0^{F_1})^{F_1^{F_0^{F_1^{F_0}}}}$ (also denoted as $F_{1.1}$)
+* $x_2 = (F_0^{\dots^{F_2}})^{\dots^{F_2^{F_0^{\dots^{F_2^{\dots^{F_0}}}}}}}$ (also denoted as $F_{2.1}$)
+* $x_n = (F_0^{\dots^{F_n}})^{\dots^{F_n^{F_0^{\dots^{F_n^{\dots^{F_0}}}}}}}$ (also denoted as $F_{n.1}$)
+
+**Core Logic Note:** The accumulation pattern features a supreme bidirectional mirror reflection powered by exponential tower building. For each step $x_n$, the sequence constructs an exponential tower expanding from $F_0 \to F_n$, anchors at the peak, and then collapses into a symmetric reversed exponential regression back from $F_n \to F_0$. It is a pure bidirectional mirror tower, not a linear progression.
+
+---
+
+## Alpha-28
+
+**Classification:** Recursive multiplicative system.
+
+**Mathematical Definition:**
+
+$$\prod_{k=1}^{x_n} C_{x_n}^{k} = F_{n+1}$$
+
+Where the sequence of $x_n$ is defined recursively as follows:
+* For $x_0 = F_0$ (where $x \ge 3$)
+* $x_1 = (F_1^{F_0})^{F_0^{F_1^{F_0^{F_1}}}}$ (also denoted as $F_{1.1}$)
+* $x_2 = (F_2^{\dots^{F_0}})^{\dots^{F_0^{F_2^{\dots^{F_0^{\dots^{F_2}}}}}}}$ (also denoted as $F_{2.1}$)
+* $x_n = (F_n^{\dots^{F_0}})^{\dots^{F_0^{F_n^{\dots^{F_0^{\dots^{F_n}}}}}}}$ (also denoted as $F_{n.1}$)
+
+**Core Logic Note:** The accumulation pattern features a supreme bidirectional mirror reflection powered by exponential tower building. For each step $x_n$, the sequence constructs an exponential tower expanding from $F_n \to F_0$, anchors at the base, and then collapses into a symmetric reversed exponential regression back from $0 \to F_n$. It is a pure bidirectional mirror tower, not a linear progression.
+
