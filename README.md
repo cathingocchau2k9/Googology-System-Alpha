@@ -16,7 +16,7 @@ Where the sequence of $x_n$ is defined recursively as follows:
 
 ---
 
-## Alpha-02 - [Mày tự đặt tên cho nó, hoặc để là Multiplicative Growth]
+# Alpha-02
 
 **Classification:** Recursive multiplicative system.
 
