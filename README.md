@@ -13,7 +13,7 @@ Through this recursive engulfment mechanism, System Alpha redefines these histor
 
 ---
 
-# Alpha-01 - Hybrid algorithmic composition with rules but uncontrollable (Lai tổ hợp thuật toán có quy luật nhưng không thể kiểm soát).
+### Alpha-01- Hybrid algorithmic composition with rules but uncontrollable (Lai tổ hợp thuật toán có quy luật nhưng không thể kiểm soát).
 
 * **Classification:** This is a unique exception in the system, operating on an entirely different frame of reference compared to the later equations.
 
@@ -31,7 +31,7 @@ Where the sequence of $x_n$ is defined recursively as follows:
 
 ---
 
-# Alpha-02
+### Alpha-02
 
 **Classification:** Recursive multiplicative system.
 
@@ -47,7 +47,7 @@ Where the sequence of $x_n$ is defined recursively as follows:
 
 ---
 
-## Alpha-03
+### Alpha-03
 
 **Classification:** Recursive multiplicative system.
 
@@ -63,7 +63,7 @@ Where the sequence of $x_n$ is defined recursively as follows:
 
 ---
 
-## Alpha-04
+### Alpha-04
 
 **Classification:** Recursive multiplicative system.
 
@@ -79,7 +79,7 @@ Where the sequence of $x_n$ is defined recursively as follows:
 
 ---
 
-## Alpha-05
+### Alpha-05
 
 **Classification:** Recursive multiplicative system.
 
@@ -95,7 +95,7 @@ Where the sequence of $x_n$ is defined recursively as follows:
 
 ---
 
-## Alpha-06
+### Alpha-06
 
 **Classification:** Recursive multiplicative system.
 
@@ -111,7 +111,7 @@ Where the sequence of $x_n$ is defined recursively as follows:
 
 ---
 
-## Alpha-07
+### Alpha-07
 
 **Classification:** Recursive multiplicative system.
 
@@ -127,7 +127,7 @@ Where the sequence of $x_n$ is defined recursively as follows:
 
 ---
 
-## Alpha-08
+### Alpha-08
 
 **Classification:** Recursive multiplicative system.
 
@@ -143,7 +143,7 @@ Where the sequence of $x_n$ is defined recursively as follows:
 
 ---
 
-## Alpha-09
+### Alpha-09
 
 **Classification:** Recursive multiplicative system.
 
@@ -159,7 +159,7 @@ Where the sequence of $x_n$ is defined recursively as follows:
 
 ---
 
-## Alpha-10
+### Alpha-10
 
 **Classification:** Recursive multiplicative system.
 
@@ -175,7 +175,7 @@ Where the sequence of $x_n$ is defined recursively as follows:
 
 ---
 
-## Alpha-11
+### Alpha-11
 
 **Classification:** Recursive multiplicative system.
 
@@ -191,7 +191,7 @@ Where the sequence of $x_n$ is defined recursively as follows:
 
 ---
 
-## Alpha-12
+### Alpha-12
 
 **Classification:** Recursive multiplicative system.
 
@@ -207,7 +207,7 @@ Where the sequence of $x_n$ is defined recursively as follows:
 
 ---
 
-## Alpha-13
+### Alpha-13
 
 **Classification:** Recursive multiplicative system.
 
@@ -223,7 +223,7 @@ Where the sequence of $x_n$ is defined recursively as follows:
 
 ---
 
-## Alpha-14
+### Alpha-14
 
 **Classification:** Recursive multiplicative system.
 
@@ -239,7 +239,7 @@ Where the sequence of $x_n$ is defined recursively as follows:
 
 ---
 
-## Alpha-15
+### Alpha-15
 
 **Classification:** Recursive multiplicative system.
 
@@ -255,7 +255,7 @@ Where the sequence of $x_n$ is defined recursively as follows:
 
 ---
 
-## Alpha-16
+### Alpha-16
 
 **Classification:** Recursive multiplicative system.
 
@@ -271,7 +271,7 @@ Where the sequence of $x_n$ is defined recursively as follows:
 
 ---
 
-## Alpha-17
+### Alpha-17
 
 **Classification:** Recursive multiplicative system.
 
@@ -287,7 +287,7 @@ Where the sequence of $x_n$ is defined recursively as follows:
 
 ---
 
-## Alpha-18
+### Alpha-18
 
 **Classification:** Recursive multiplicative system.
 
@@ -303,7 +303,7 @@ Where the sequence of $x_n$ is defined recursively as follows:
 
 ---
 
-## Alpha-19
+### Alpha-19
 
 **Classification:** Recursive multiplicative system.
 
@@ -319,7 +319,7 @@ Where the sequence of $x_n$ is defined recursively as follows:
 
 ---
 
-## Alpha-20
+### Alpha-20
 
 **Classification:** Recursive multiplicative system.
 
@@ -335,7 +335,7 @@ Where the sequence of $x_n$ is defined recursively as follows:
 
 ---
 
-## Alpha-21
+### Alpha-21
 
 **Classification:** Recursive multiplicative system.
 
@@ -353,7 +353,7 @@ Where the sequence of $x_n$ is defined recursively as follows:
 
 ---
 
-## Alpha-22
+### Alpha-22
 
 **Classification:** Recursive multiplicative system.
 
@@ -371,7 +371,7 @@ Where the sequence of $x_n$ is defined recursively as follows:
 
 ---
 
-## Alpha-23
+### Alpha-23
 
 **Classification:** Recursive multiplicative system.
 
@@ -389,7 +389,7 @@ Where the sequence of $x_n$ is defined recursively as follows:
 
 ---
 
-## Alpha-24
+### Alpha-24
 
 **Classification:** Recursive multiplicative system.
 
@@ -407,7 +407,7 @@ Where the sequence of $x_n$ is defined recursively as follows:
 
 ---
 
-## Alpha-25
+### Alpha-25
 
 **Classification:** Recursive multiplicative system.
 
@@ -425,7 +425,7 @@ Where the sequence of $x_n$ is defined recursively as follows:
 
 ---
 
-## Alpha-26
+### Alpha-26
 
 **Classification:** Recursive multiplicative system.
 
@@ -443,7 +443,7 @@ Where the sequence of $x_n$ is defined recursively as follows:
 
 ---
 
-## Alpha-27
+### Alpha-27
 
 **Classification:** Recursive multiplicative system.
 
@@ -461,7 +461,7 @@ Where the sequence of $x_n$ is defined recursively as follows:
 
 ---
 
-## Alpha-28
+### Alpha-28
 
 **Classification:** Recursive multiplicative system.
 
