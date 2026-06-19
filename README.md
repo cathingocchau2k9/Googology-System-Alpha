@@ -13,7 +13,7 @@ Through this recursive engulfment mechanism, System Alpha redefines these histor
 
 ---
 
-Alpha-01 - Hybrid algorithmic composition with rules but uncontrollable (Lai tổ hợp thuật toán có quy luật nhưng không thể kiểm soát).
+# Alpha-01 - Hybrid algorithmic composition with rules but uncontrollable (Lai tổ hợp thuật toán có quy luật nhưng không thể kiểm soát).
 
 * **Classification:** This is a unique exception in the system, operating on an entirely different frame of reference compared to the later equations.
 
