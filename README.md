@@ -477,3 +477,10 @@ Where the sequence of $x_n$ is defined recursively as follows:
 
 **Core Logic Note:** The accumulation pattern features a supreme bidirectional mirror reflection powered by exponential tower building. For each step $x_n$, the sequence constructs an exponential tower expanding from $F_n \to F_0$, anchors at the base, and then collapses into a symmetric reversed exponential regression back from $0 \to F_n$. It is a pure bidirectional mirror tower, not a linear progression.
 
+---
+
+<p align="right">
+  <strong>Ca Thị Ngọc Châu</strong><br>
+  Ngọc Châu
+</p>
+
